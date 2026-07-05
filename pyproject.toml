@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recskit"
+version = "0.1.0"
+description = "Reconcile a supplier or customer statement against your accounting ledger: match invoices, credit notes, and payments, flag mismatches and missing items, compare balances. No dependencies in the core -- works with any data source."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Fred's Scripts" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+sage = [
+    "sagekit @ git+https://github.com/FredScriptsPT/sagekit.git",
+]
+
+[project.urls]
+Homepage = "https://github.com/FredScriptsPT/recskit"
+"Buy me a coffee" = "https://ko-fi.com/fredscripts"
+
+[tool.setuptools.packages.find]
+include = ["recskit*"]

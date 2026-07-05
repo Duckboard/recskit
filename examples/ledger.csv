@@ -1,0 +1,5 @@
+type,ref,amount,date,outstanding
+invoice,INV-100,500.00,01/05/2026,500.00
+invoice,INV-101,300.00,10/05/2026,300.00
+invoice,INV-102,263.45,20/05/2026,263.45
+payment,BACS-9001,300.00,15/05/2026,

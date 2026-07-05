@@ -1,0 +1,5 @@
+type,ref,alt_ref,amount,date,due_date
+invoice,INV-100,,500.00,01/05/2026,31/05/2026
+invoice,INV-101,,320.00,10/05/2026,09/06/2026
+invoice,INV-103,,150.00,25/05/2026,24/06/2026
+payment,BACS,,300.00,15/05/2026,
