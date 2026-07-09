@@ -6,7 +6,7 @@ and missing items on either side; compare balances. The core has
 **zero dependencies** and doesn't care where your data came from --
 CSV, a PDF you parsed by hand, Sage, Xero, QuickBooks, anything.
 
-If this saves you time, consider [buying me a coffee](https://ko-fi.com/fredscripts).
+If this saves you time, consider [buying me a coffee](https://ko-fi.com/duckboard).
 
 ## What problem this solves
 
@@ -40,7 +40,7 @@ open items. Two things make it worse than it looks:
 - Zero required dependencies in the core -- add the optional `sage`
   extra only if you want the bundled Sage 50 adapter
 - Two worked examples: pure CSV (no external system at all), and Sage
-  50 via [sagekit](https://github.com/FredScriptsPT/sagekit)
+  50 via [sagekit](https://github.com/Duckboard/sagekit)
 
 ## Installation
 
@@ -99,7 +99,7 @@ point for wiring recskit up to whatever export your own accounting
 software produces. `reconcile_sage.py` shows the same reconciliation
 against a live Sage 50 purchase ledger account, using
 `recskit.sage_adapter` to fetch the ledger side and
-[sagekit](https://github.com/FredScriptsPT/sagekit) for the ODBC
+[sagekit](https://github.com/Duckboard/sagekit) for the ODBC
 connection and column auto-detection.
 
 ### Concept reference
@@ -148,5 +148,5 @@ Python objects in, plain Python objects out.
 ## License
 
 MIT -- see [LICENSE](LICENSE). Do whatever you like with this; a
-credit or a [Ko-fi tip](https://ko-fi.com/fredscripts) is appreciated
+credit or a [Ko-fi tip](https://ko-fi.com/duckboard) is appreciated
 but never required.

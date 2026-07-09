@@ -10,18 +10,18 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-    { name = "Fred's Scripts" }
+    { name = "Duckboard" }
 ]
 dependencies = []
 
 [project.optional-dependencies]
 sage = [
-    "sagekit @ git+https://github.com/FredScriptsPT/sagekit.git",
+    "sagekit @ git+https://github.com/Duckboard/sagekit.git",
 ]
 
 [project.urls]
-Homepage = "https://github.com/FredScriptsPT/recskit"
-"Buy me a coffee" = "https://ko-fi.com/fredscripts"
+Homepage = "https://github.com/Duckboard/recskit"
+"Buy me a coffee" = "https://ko-fi.com/duckboard"
 
 [tool.setuptools.packages.find]
 include = ["recskit*"]
